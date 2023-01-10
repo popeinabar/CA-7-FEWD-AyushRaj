@@ -5,7 +5,7 @@ function Navbar(){
         
 <div className="row1">
 <nav className="nav">
-    <Link to="/" className="site-title"><img src={logo}/></Link>
+    <Link to="/" className="site-title"><img src={logo} alt=""/></Link>
     <div>
         <Link to="/1"> <button>Register</button> </Link>
     </div>
@@ -16,4 +16,4 @@ function Navbar(){
     )
 }
 
-export default Navbar
+export default Navbar;

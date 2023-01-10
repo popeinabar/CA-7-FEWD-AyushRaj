@@ -162,7 +162,7 @@ function Form() {
 const efg = sessionStorage.getItem('name')
 
   return (
-    <div className="container">
+    <div className="containerForm">
       {/* if keys in the object error is 0 and all the fields are filled then conditon */}
       
   
